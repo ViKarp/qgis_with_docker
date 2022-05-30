@@ -13,4 +13,3 @@ xhost +
 docker build -t myimage .
 docker run -v /tmp/.X11-unix:/tmp/.X11-unix -v /home/victor21/fastapi/output:/home/output -v /home/victor21/fastapi/input:/home/input -e DISPLAY=$DISPLAY --rm --name mycontainer -p 80:80 myimage
 ```
-(/1.jpg?raw=true "Optional Title")
